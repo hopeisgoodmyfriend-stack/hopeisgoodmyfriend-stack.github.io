@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turki Albaqami | Video Editor</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background:#0d1117;
+      color:white;
+      line-height:1.6;
+    }
+    header {
+      height:100vh;
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      background:linear-gradient(135deg,#0d1117,#161b22);
+      padding:20px;
+    }
+    h1 { font-size:3rem; margin-bottom:10px; }
+    h2 { color:#58a6ff; margin-bottom:20px; }
+    .btn {
+      display:inline-block;
+      margin-top:20px;
+      padding:12px 24px;
+      background:#58a6ff;
+      color:white;
+      text-decoration:none;
+      border-radius:8px;
+      font-weight:600;
+    }
+    section { max-width:1000px; margin:auto; padding:70px 20px; }
+    .about, .contact { text-align:center; }
+    .video-grid {
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+      gap:25px;
+      margin-top:30px;
+    }
+    .video-card {
+      background:#161b22;
+      border-radius:12px;
+      overflow:hidden;
+      box-shadow:0 8px 20px rgba(0,0,0,.3);
+    }
+    iframe { width:100%; height:220px; border:none; }
+    .skills {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:15px;
+      margin-top:25px;
+    }
+    .skill {
+      background:#21262d;
+      padding:12px 20px;
+      border-radius:30px;
+      border:1px solid #30363d;
+    }
+    footer {
+      text-align:center;
+      padding:30px;
+      border-top:1px solid #30363d;
+      color:#8b949e;
+    }
+    @media(max-width:600px){
+      h1{font-size:2.2rem;}
+      h2{font-size:1.2rem;}
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Turki Albaqami</h1>
+    <h2>Professional Video Editor</h2>
+    <p>Creating engaging edits, cinematic storytelling, and high-quality content for brands, creators, and businesses.</p>
+    <a href="#portfolio" class="btn">View My Work</a>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>
+      I'm Turki Albaqami, a passionate video editor focused on delivering
+      clean, dynamic, and professional edits. I enjoy transforming raw footage
+      into compelling visual stories that capture attention and drive results.
+    </p>
+  </section>
+
+  <section id="portfolio">
+    <h2 style="text-align:center;">Featured Project</h2>
+    <div class="video-grid">
+      <div class="video-card">
+        <iframe
+          src="https://www.youtube.com/embed/PxPyTDcsP54"
+          title="Turki Albaqami Video Portfolio"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 style="text-align:center;">Skills</h2>
+    <div class="skills">
+      <div class="skill">Adobe Premiere Pro</div>
+      <div class="skill">After Effects</div>
+      <div class="skill">Color Correction</div>
+      <div class="skill">Motion Graphics</div>
+      <div class="skill">Short Form Content</div>
+      <div class="skill">YouTube Editing</div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Let's Work Together</h2>
+    <p>Available for freelance and creative collaborations.</p>
+    <p><strong>Email:</strong> hoepisgoodmyfreind@gmail.com</p>
+    <a class="btn" href="mailto:hoepisgoodmyfreind@gmail.com">Contact Me</a>
+  </section>
+
+  <footer>
+    © 2026 Turki Albaqami — Video Editor
+  </footer>
+
+</body>
+</html>
