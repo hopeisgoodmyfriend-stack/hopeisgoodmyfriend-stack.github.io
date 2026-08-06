@@ -1,1 +1,1 @@
-# hopeisgoodmyfriend-stack.github.io
+# hopeisgoodmyfriend-stack.github.io.
