@@ -83,7 +83,7 @@ text-align:center;
 padding:0 30px;
 background:
 linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.75)),
-url("assets/hero.jpg");
+url("hero.jpg");
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
